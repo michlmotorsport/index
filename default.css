@@ -13,6 +13,44 @@ body {
 	color: #363636;
 }
 
+#statusBorder {
+  background-color: #f8ce4b;
+  animation: bgColor 5s infinite linear;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  
+}
+
+#status {
+  background-color: #eeeeee;
+  margin:10%;
+  text-align: center;
+  font-size: 125%;
+  color: rgb(5, 5, 5);
+  border-radius: 12px;
+  transition:0.25s;
+}
+#status:hover {
+  scale: 102%;
+}
+
+@keyframes bgColor {
+    0% {
+      background-color: #e6da33;
+    }
+    25% {
+      background-color: #e9b927;
+    }
+    50% {
+      background-color: #ffa200;
+    }
+    75% {
+      background-color: #e9b927;
+    }
+    100% {
+      background-color: #e6da33;
+    }
+  }
 
 h1, h2, h3 {
 	margin: 0;
